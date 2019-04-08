@@ -1,12 +1,13 @@
 
 /**
- * Write a description of class PetLeopard here.
+ * A pet leopard.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Patty Gannon
+ * @version April 2019
  */
-public class PetLeopard
+public class PetLeopard extends Leopard implements Pet
 {
+
     private String name;
     
     public PetLeopard(String s)
@@ -27,6 +28,6 @@ public class PetLeopard
     
     public void play()
     {
-        System.out.print("La-dee-da, I like to strole through the grassland!");
+        System.out.print("La-dee-da, I race through the grassland!");
     }
 }
